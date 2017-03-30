@@ -1,4 +1,9 @@
-# Pulldown Menu Component
+# Go Directive
 
-Pulldown menu คือ เมนูที่แสดงรายการในลักษณะถูกดึงลง โดยการกดที่หัวเมนูหลัก ตัวเมนูจะ hilight สีเมื่อผู้ใช้อยู่ในหน้าที่ตรงกับ url ของเมนูนั้นๆ 
-การใช้งานจะใช้ร่วมกับ routerLink ใน Angular 2 เพื่อความสะดวกในการ config path
+Go Directive คือ directive กลางที่ทำหน้าที่แทน atrribute ของ html เพื่อแก้ปัญหาการไม่สามารถ set ค่าในบาง attribute ของ html ได้
+
+#### Directive List
+- CustomCheckDirective - ใช้ในการ check ค่าจาก checkbox component
+- CustomDisabledDirective - ใช้ในการกำหนดเพื่อปิดการใช้งาน หรือการแก้ไข component
+- CustomMaxlengthDirective - ใช้ในการกำหนดความยาวสูงสุดของข้อความใน textarea component
+- CustomReadonlyDirective - ใช้ในการกำหนดให้สามารถอ่านข้อความใน component ได้อย่างเดียว
